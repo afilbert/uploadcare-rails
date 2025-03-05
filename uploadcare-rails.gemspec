@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
   gem.test_files = Dir['spec/**/*']
   gem.version       = Uploadcare::Rails::VERSION
   gem.add_dependency 'rails', '>= 4', '< 7'
-  gem.add_dependency 'uploadcare-ruby', '~> 2.1'
+  gem.add_dependency 'uploadcare-ruby'
 
   gem.add_development_dependency 'bundler'
   gem.add_development_dependency 'rake'
